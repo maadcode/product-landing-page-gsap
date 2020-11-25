@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <!-- Font Awesome -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="" class="navbar__logo">MaadSound</a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <div class="navbar__menu">
+            <a href="/" class="navbar__link">Home</a>
+            <a href="/#services" class="navbar__link">Services</a>
+            <a href="/#plans" class="navbar__link">Plans</a>
+            <a href="/#newsletter" class="navbar__link">Newsletter</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero__content">
+            <h1 class="animate-hero">MaadSound</h1>
+            <p class="animate-hero">Learn now for $30</p>
+            <a href="/#plans" class="button animate-hero">Get Started</a>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Services Section -->
+        <section class="services" id="services">
+            <div class="services__container">
+                <div>
+                    <p class="topline animate-services">Features</p>
+                    <h2 class="services__heading animate-services">What we offer</h2>
+                    <div class="services__features">
+                        <p class="services__feature animate-services">
+                            <i class='bx bxs-check-circle'></i>Learn from scratch
+                        </p>
+                        <p class="services__feature animate-services">
+                            <i class='bx bxs-check-circle'></i>Team or Individual Learning
+                        </p>
+                        <p class="services__feature animate-services">
+                            <i class='bx bxs-check-circle'></i>Fun Learning
+                        </p>
+                        <p class="services__feature animate-services">
+                            <i class='bx bxs-check-circle'></i>Face-To-Face And Remote Classes
+                        </p>
+                        <p class="services__feature animate-services">
+                            <i class='bx bxs-check-circle'></i>Basketball Court
+                        </p>
+                        <p class="services__feature animate-services">
+                            <i class='bx bxs-check-circle'></i>Contact us 24/7
+                        </p>
+                    </div>
+                </div>
+    
+                <div>
+                    <video id="video" class="services__img animate-img" controls>
+                        <source src="./assets/guitar-video.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Membership Section -->
+        <section class="membership" id="plans">
+            <h2 class="animate-plans">View Our Plans</h2>
+            <p class="membership__desc animate-plans">Get started today and receive 25% off your first month</p>
+            <div class="membership__wrapper">
+                <div class="membership__card animate-card">
+                    <div class="membership__title">
+                        <i class='bx bxs-paper-plane card-icon'></i>
+                        <h3>Basic</h3>
+                    </div>
+                    <div class="membership__perks">
+                        <p>Get access to all the video classes</p>
+                        <p>$30 per month</p>
+                    </div>
+                    <a href="" class="button">Sign Up</a>
+                </div>
+    
+                <div class="membership__card animate-card">
+                    <div class="membership__title">
+                        <i class='bx bxs-plane-alt card-icon'></i>
+                        <h3>Normal</h3>
+                    </div>
+                    <div class="membership__perks">
+                        <p>Get access to all the video classes</p>
+                        <p>Access to live groups</p>
+                        <p>$50 per month</p>
+                    </div>
+                    <a href="" class="button">Sign Up</a>
+                </div>
+    
+                <div class="membership__card animate-card">
+                    <div class="membership__title">
+                        <i class='bx bxs-rocket card-icon'></i>
+                        <h3>Premium</h3>
+                    </div>
+                    <div class="membership__perks">
+                        <p>Get access to the entire gym</p>
+                        <p>Access to live groups</p>
+                        <p>Intensive personal classes</p>
+                        <p>$100 per month</p>
+                    </div>
+                    <a href="" class="button">Sign Up</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Suscribe Section -->
+
+    <section class="email" id="newsletter">
+        <div class="email__content">
+            <h2 class="animate-suscribe">Get Access to Members Only Perks</h2>
+            <p class="animate-suscribe">Join our newsletter and get a free class!</p>
+            <form action="" class="animate-suscribe">
+                <div class="form__wrap">
+                    <label for="email">
+                        <input type="email" name="" id="email" placeholder="Enter your email">
+                    </label>
+                    <button class="button" type="submit">Sign Up</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__desc">
+                <h2>MaadSound</h2>
+                <p>Make with <i class='bx bxs-heart'></i> and <i class='bx bxs-coffee'></i> by <a href="https://github.com/maadcode">Maadcode</a></p>
+            </div>
+
+            <div class="footer__links">
+                <div class="footer__title">Contact Us</div>
+                <a href="" class="footer__link">Contact</a>
+                <a href="" class="footer__link">Support</a>
+                <a href="" class="footer__link">About</a>
+            </div>
+        </div>
+        <div class="footer__wrapper">
+            <div class="footer__links">
+                <div class="footer__title">Memberships</div>
+                <a href="" class="footer__link">Pricing</a>
+                <a href="" class="footer__link">FAQ</a>
+                <a href="" class="footer__link">Plans</a>
+            </div>
+
+            <div class="footer__links">
+                <div class="footer__title">Social Media</div>
+                <a href="" class="footer__link">Facebook</a>
+                <a href="" class="footer__link">Instagram</a>
+                <a href="" class="footer__link">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

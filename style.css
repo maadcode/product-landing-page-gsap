@@ -28,7 +28,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    position: fixed;
+    width: 100%;
+    z-index: 90;
 }
 
 .navbar__logo {
